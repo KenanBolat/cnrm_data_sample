@@ -1,0 +1,11 @@
+rioxarray~=0.3.1
+h5py~=3.1.0
+numpy~=1.20.1
+xarray~=0.16.2
+pandas~=1.2.2
+dask~=2021.2.0
+scipy~=1.6.1
+rasterio~=1.2.1
+geopandas~=0.8.2
+matplotlib~=3.3.4
+Shapely~=1.7.1
