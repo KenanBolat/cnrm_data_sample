@@ -38,7 +38,7 @@ if __name__ == '__main__':
     clipped = ds.rio.clip(tr.geometry.apply(mapping), tr.crs, drop=False)
 
     # Export clipped to netcdf
-    clipped.to_netcdf(os.path.join(processing_path, 'Clipped.nc'))
+    clipped.to_netcdf(os.path.join(processing_path, 'Clipped_Updated'+str(datetime.date.today())+'.nc'))
 
     # Example Output
     ds.sel(season="2017-01-01").tas_m[0].transpose('lat', 'lon'). \
